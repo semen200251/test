@@ -20,7 +20,7 @@ public class TicTacToe {
     String makeMove(int x, int y) {
         x -= 1;
         y -= 1;
-
+        int a=2;
         String check = this.checkGame();
 
 
